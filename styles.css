@@ -1,0 +1,28 @@
+
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.slider-container{
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.slider-track{
+    background-color: coral;
+    display: flex;
+    transition: 0.3s;
+}
+.slider-item{
+    height: 100px;
+    
+    
+}
+.slider-item:nth-child(3n+1) { background-color: cornflowerblue;}
+.slider-item:nth-child(3n+2) { background-color: rgb(250, 144, 6);}
+.slider-item:nth-child(3n+2) { background-color: rgb(230, 77, 77);}
+
+
+
+.slider-buttons{text-align: center;}
